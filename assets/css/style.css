@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none !important;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.cards {
+    padding: 200px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.10);
+}
+
+.pl-140 {
+    padding-left: 140px;
+}
+
+.addbtn {
+    display: inline-flex;
+    height: 45px;
+    padding: 11px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 36px;
+    background: #2C49FE;
+    border: none;
+    white-space: nowrap;
+}
+
+
+.fs-50 {
+    font-size: 50px;
+}
+.btnDisable {
+    display: inline-flex;
+    height: 45px;
+    padding: 11px 28px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 36px;
+    background: gray;
+    border: none;
+    white-space: nowrap;
+    cursor: not-allowed;
+}
